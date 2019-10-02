@@ -1,0 +1,2 @@
+export const TOGGLE_ADD_TASK_MODAL = "TOGGLE_ADD_TASK_MODAL";
+export const ADD_NEW_TASK = "ADD_NEW_TASK";

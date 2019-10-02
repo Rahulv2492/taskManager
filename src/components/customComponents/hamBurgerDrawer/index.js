@@ -24,4 +24,7 @@ class HamBurgerDrawer extends PureComponent {
         );
     }
 }
+HamBurgerDrawer.prototype={
+    
+}
 export default HamBurgerDrawer;

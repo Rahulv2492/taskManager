@@ -1,6 +1,7 @@
 import React from 'react'
 import { SafeAreaView, ScrollView, View,AsyncStorage } from 'react-native';
 import { DrawerNavigatorItems } from 'react-navigation-drawer';
+import PropTypes from 'prop-types'; 
 
 //Custom Components
 import {Button,Separator} from './../../customComponents'
@@ -31,5 +32,8 @@ const CustomDrawer = props => {
     )
 };
 
+CustomDrawer.prototype={
+    navigation:PropTypes.any
+}
 
 export default CustomDrawer;

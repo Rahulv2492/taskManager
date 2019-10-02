@@ -17,15 +17,6 @@ import { Input, Button } from './../../customComponents'
 //Actions
 import { toggleModal,addNewTask } from './../../../redux/actions/TaskList'
 
-
-// const addNewTask=async (data,addNewTask)=>{
-//     addNewTask()
-//     let taskList=await AsyncStorage.getItem('taskList');
-//     let parsedTaskList=taskList ? JSON.parse(taskList):[];
-//     let newData=[...parsedTaskList,data];
-//     AsyncStorage.setItem('taskList',JSON.stringify(newData))
-// }
-
 const AddTaskModal = (props) => {
     const { TaskListReducer, toggleModal,addNewTask } = props;
     let date=new Date();
